@@ -1,0 +1,8 @@
+thislist = ["apple", "banana", "cherry"]
+
+thislist[1:3] = ["watermelon"]
+
+print(thislist)
+
+#This will remove items from 1 and 2 ,excluding 3 and insert watermelon from index 1
+#output will be ["apple", "watermelon"]
