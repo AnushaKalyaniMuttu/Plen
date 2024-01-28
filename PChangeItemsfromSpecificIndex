@@ -1,0 +1,8 @@
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+
+thislist[1:3] = ["blackcurrant", "watermelon"]
+
+print(thislist)
+
+#this will change values from index 1 to 3 (excluded) which means 2 indexes i.e 1 and 2 . "blackcurrant" and "watermelon" will be inserted in index 1 and 2
+#output will be ["apple", "blackcurrant", "watermelon", "orange", "kiwi", "mango"]
